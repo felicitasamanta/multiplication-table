@@ -1,0 +1,23 @@
+.div_img {
+    width: 700px;
+}
+
+.img {
+    width: 100%;
+}
+
+.table1 {
+    border: 1px solid black;
+}
+
+.table1 tr td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+td.header {
+    background-color: coral;
+}

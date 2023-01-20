@@ -84,7 +84,7 @@
                         </label>
                     </div>
                 </div>
-                <button class="btn btn-primary <?= (!isset($_POST['numberSet']) || !isset($_POST['difficulty'])) ? 'disabled' : '' ?>">
+                <button class="btn btn-primary">
                     GENERATE
                 </button>
                 <button class="btn btn-danger" type="reset">RESET</button>

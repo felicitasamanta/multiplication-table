@@ -38,7 +38,7 @@ $difficulty = $_POST['difficulty'];
                                 <td class="<?= ($i == 1 || $j == 1) ? 'header' : '' ?>">
 
 
-                                    <?= (rand(0, 100) < $difficulty) ? $i * $j : "" ?>
+                                    <?= (rand(0, 100) < $difficulty) || $i == 1 || $j == 1 ? $i * $j : "" ?>
                                 </td>
                             <?php } ?>
                         </tr>
